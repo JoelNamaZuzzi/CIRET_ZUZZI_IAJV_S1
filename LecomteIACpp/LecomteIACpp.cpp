@@ -2,9 +2,12 @@
 //
 
 #include <iostream>
-
+#include "GameManager.h"
 int main()
 {
-    std::cout << "YAmete kudasai!\n";
+    bool gamestate = true;
+    while (gamestate == true) {
+
+    }
     
 }
