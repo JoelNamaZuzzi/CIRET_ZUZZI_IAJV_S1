@@ -5,5 +5,5 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::cout << "YAmete kudasai!\n";
 }
