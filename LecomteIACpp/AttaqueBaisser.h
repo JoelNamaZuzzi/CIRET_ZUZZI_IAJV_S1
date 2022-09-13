@@ -1,5 +1,7 @@
 #pragma once
-class AttaqueBaisser
+#include "Action.h"
+class AttaqueBaisser : public Action
 {
+	virtual void Act() const;
 };
 

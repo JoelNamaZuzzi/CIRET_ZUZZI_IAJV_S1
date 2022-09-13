@@ -10,7 +10,7 @@ private :
 	std::vector<prerequis> requirements;
 
 public:
-	void Act();
+	virtual void Act();
 	bool Can();
 
 	void SetCost(int c) { this->cost = c; };
