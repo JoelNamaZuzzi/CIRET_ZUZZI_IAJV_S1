@@ -141,6 +141,14 @@
   <ItemGroup>
     <ClCompile Include="UtilityAI.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Rules.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.hpp" />
+    <ClInclude Include="AI.hpp" />
+    <ClInclude Include="Requirement.hpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

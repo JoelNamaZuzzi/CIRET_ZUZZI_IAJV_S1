@@ -16,6 +16,8 @@ public:
 	void SetCost(int c) { this->cost = c; };
 	int GetCost()const { return this->cost; };
 
+	void AddRequirements(prerequis r);
+
 	
 };
 

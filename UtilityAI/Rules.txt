@@ -1,0 +1,9 @@
+Actions			Prerequis	Effet									Poids
+
+Attaques		Aucuns		10 degats								1
+Attaque spe		5 MP		20 degats, -5 MP						2
+Buff			10 MP		+5 degats sur 2 tours, -10MP			3
+DeBuff			10 MP		-5 degats enemis sur 2 tours, -10MP		3
+Defense			Aucun		absorbe 50% des degats,					1
+
+Player commence avec 100 HP et 30 MP
