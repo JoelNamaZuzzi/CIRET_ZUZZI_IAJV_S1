@@ -3,5 +3,6 @@
 class AttaqueBaisser : public Action
 {
 	virtual void Act() const;
+	AttaqueBaisser();
 };
 

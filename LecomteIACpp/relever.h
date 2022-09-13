@@ -3,5 +3,6 @@
 class Relever : public Action
 {
 	virtual void Act() const;
+	Relever();
 };
 

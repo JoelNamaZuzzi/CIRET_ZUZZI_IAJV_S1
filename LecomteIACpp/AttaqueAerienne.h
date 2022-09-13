@@ -4,4 +4,6 @@
 class AttaqueAerienne : public Action
 {
 	virtual void Act() const;
+
+	AttaqueAerienne();
 };

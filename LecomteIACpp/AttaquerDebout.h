@@ -3,5 +3,6 @@
 class AttaquerDebout : public Action
 {
 	virtual void Act() const;
+	AttaquerDebout();
 };
 

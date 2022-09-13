@@ -3,5 +3,6 @@
 class Sauter : public Action
 {
 	virtual void Act() const;
+	Sauter();
 };
 

@@ -3,5 +3,6 @@
 class CoupSpecial : public Action
 {
 	virtual void Act() const;
+	CoupSpecial();
 };
 

@@ -3,5 +3,6 @@
 class Redescendre : public Action
 {
 	virtual void Act() const;
+	Redescendre();
 };
 

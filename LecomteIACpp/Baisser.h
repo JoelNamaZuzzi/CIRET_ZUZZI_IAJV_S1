@@ -3,5 +3,6 @@
 class Baisser : public Action
 {
 	virtual void Act() const;
+	Baisser();
 };
 
