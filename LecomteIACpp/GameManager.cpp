@@ -2,7 +2,13 @@
 
 void GameManager::initAction() {
 	
-	AttaqueAerienne attaqueAerienne;
-	attaqueAerienne.AddRequirements(RequirementsAttaqueAerienne aerialAttaque)
+	
+	AttaqueAerienne* attaqueAerienne;
+	attaqueAerienne->AddRequirements(new EtreEnLair());
+	this->IaGoat.AddAction(attaqueAerienne);
+
+
+
+
 	
 }

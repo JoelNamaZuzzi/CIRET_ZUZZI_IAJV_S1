@@ -22,6 +22,12 @@
     <Filter Include="Header Files\AttackSpe">
       <UniqueIdentifier>{30323d80-dd2b-4358-b116-c19ee58db57f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Buff">
+      <UniqueIdentifier>{0b92502f-e559-46d5-b68e-69f9ef44ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debuff">
+      <UniqueIdentifier>{e187f49b-361a-40ed-9222-c595c00a8314}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UtilityAI.cpp">
@@ -74,20 +80,23 @@
     <ClInclude Include="AttackSpeRequirement.hpp">
       <Filter>Header Files\AttackSpe</Filter>
     </ClInclude>
-    <ClInclude Include="GameManager.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Buff.hpp">
+      <Filter>Header Files\Buff</Filter>
     </ClInclude>
-    <ClInclude Include="Header.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="BuffRequirement.hpp">
+      <Filter>Header Files\Buff</Filter>
     </ClInclude>
-    <ClInclude Include="Player.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Debuff.hpp">
+      <Filter>Header Files\Debuff</Filter>
     </ClInclude>
-    <ClInclude Include="Turn.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="DebuffRequirement.hpp">
+      <Filter>Header Files\Debuff</Filter>
     </ClInclude>
-    <ClInclude Include="WhoStart.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Defense.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenseRequirement.hpp">
+      <Filter>Header Files\Defense</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,5 +1,5 @@
 #pragma once
-class RequirementAttaqueBaisser
+class EtreEnLair : public prerequis
 {
 };
 
