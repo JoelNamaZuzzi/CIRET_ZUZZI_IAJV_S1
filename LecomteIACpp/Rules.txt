@@ -1,15 +1,16 @@
 
 Simulation de Combat
 
-prerequis	    action	           effet	       cout
+prerequis					action	           effet	       cout
 
-etre debout		s'accroupir      - s'accroupir	      2
-etre debout		sauter           - sauter	          2
-etre debout		Attaque CaC	     - tapper	          3
-En l'air		Attaque aérienne - tapper	          4
-etre accroupi	Attaque accroupi - tapper             4
-etre en l'air	redescendre      -                    1
-etre accroupi	relever          -                    1
+etre debout					s'accroupir      - s'accroupir	      2
+etre debout					sauter           - sauter	          2
+etre debout					Attaque CaC	     - tapper	          3
+En l'air					Attaque aérienne - tapper	          4
+etre accroupi				Attaque accroupi - tapper             4
+etre en l'air				redescendre      -                    1
+etre accroupi				relever          -                    1
+3 tapper + etre debout		coup special	 - tapper			  6
 
 
 Si tu est accroupi, pas de degat au ennemis aerien
