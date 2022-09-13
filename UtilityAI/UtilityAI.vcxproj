@@ -157,8 +157,13 @@
     <ClInclude Include="AttackSpe.hpp" />
     <ClInclude Include="Effect.hpp" />
     <ClInclude Include="AttackSpeRequirement.hpp" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Requirement.hpp" />
+    <ClInclude Include="Turn.h" />
     <ClInclude Include="UtilityAI.h" />
+    <ClInclude Include="WhoStart.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
