@@ -80,5 +80,23 @@
     <ClInclude Include="AttackSpeRequirement.hpp">
       <Filter>Header Files\AttackSpe</Filter>
     </ClInclude>
+    <ClInclude Include="Buff.hpp">
+      <Filter>Header Files\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="BuffRequirement.hpp">
+      <Filter>Header Files\Buff</Filter>
+    </ClInclude>
+    <ClInclude Include="Debuff.hpp">
+      <Filter>Header Files\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuffRequirement.hpp">
+      <Filter>Header Files\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Defense.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenseRequirement.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
