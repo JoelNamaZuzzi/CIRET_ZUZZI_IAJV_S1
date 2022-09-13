@@ -4,8 +4,10 @@
 class Player
 {
 public:
-	int HP = 100;
-	int MP = 30;
+	int HP;
+	int MP;
+	
+	Player();
 
 private:
 
