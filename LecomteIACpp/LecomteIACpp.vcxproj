@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ATaper3Foix.cpp" />
     <ClCompile Include="AttaqueAerienne.cpp" />
     <ClCompile Include="AttaqueBaisser.cpp" />
     <ClCompile Include="AttaquerDebout.cpp" />
@@ -161,6 +162,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Action.h" />
+    <ClInclude Include="ATaper3Foix.h" />
     <ClInclude Include="AttaqueAerienne.h" />
     <ClInclude Include="AttaqueBaisser.h" />
     <ClInclude Include="AttaquerDebout.h" />

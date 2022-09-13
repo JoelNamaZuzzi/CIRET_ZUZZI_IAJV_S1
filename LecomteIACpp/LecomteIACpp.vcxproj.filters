@@ -75,6 +75,9 @@
     <ClCompile Include="EtreAccroupi.cpp">
       <Filter>Source Files\Prerequi</Filter>
     </ClCompile>
+    <ClCompile Include="ATaper3Foix.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Rules.txt">
@@ -128,6 +131,9 @@
       <Filter>Header Files\Prerequi</Filter>
     </ClInclude>
     <ClInclude Include="prerequis.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="ATaper3Foix.h">
       <Filter>Header Files\Prerequi</Filter>
     </ClInclude>
   </ItemGroup>
