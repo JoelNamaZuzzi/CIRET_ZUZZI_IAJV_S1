@@ -139,21 +139,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="GameManager.cpp" />
-    <ClCompile Include="Turn.cpp" />
     <ClCompile Include="UtilityAI.cpp" />
-    <ClCompile Include="WhoStart.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Rules.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="GameManager.h" />
-    <ClInclude Include="Header.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Turn.h" />
-    <ClInclude Include="WhoStart.h" />
+    <ClInclude Include="Action.hpp" />
+    <ClInclude Include="AI.hpp" />
+    <ClInclude Include="Attack.hpp" />
+    <ClInclude Include="AttackEffect.hpp" />
+    <ClInclude Include="AttackRequirement.hpp" />
+    <ClInclude Include="AttackSpe.hpp" />
+    <ClInclude Include="Effect.hpp" />
+    <ClInclude Include="AttackSpeRequirement.hpp" />
+    <ClInclude Include="Requirement.hpp" />
+    <ClInclude Include="UtilityAI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
