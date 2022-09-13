@@ -1,5 +1,7 @@
 #pragma once
-class Baisser
+#include "Action.h"
+class Baisser : public Action
 {
+	virtual void Act() const;
 };
 
