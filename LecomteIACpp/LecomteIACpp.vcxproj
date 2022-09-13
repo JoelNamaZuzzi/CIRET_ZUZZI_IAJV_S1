@@ -139,13 +139,72 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AttaqueAerienne.cpp" />
+    <ClCompile Include="AttaqueBaisser.cpp" />
+    <ClCompile Include="AttaquerDebout.cpp" />
+    <ClCompile Include="Baisser.cpp" />
+    <ClCompile Include="coupSpecial.cpp" />
+    <ClCompile Include="effet.cpp" />
+    <ClCompile Include="EffetAttaqueAerienne.cpp" />
+    <ClCompile Include="EffetAttaquebaisser.cpp" />
+    <ClCompile Include="EffetAttaqueDebout.cpp" />
+    <ClCompile Include="EffetBaisser.cpp" />
+    <ClCompile Include="EffetRedescendre.cpp" />
+    <ClCompile Include="EffetRemonter.cpp" />
+    <ClCompile Include="EffetSauter.cpp" />
+    <ClCompile Include="etat.cpp" />
+    <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="LecomteIACpp.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="prerequis.cpp" />
+    <ClCompile Include="redescendre.cpp" />
+    <ClCompile Include="relever.cpp" />
+    <ClCompile Include="RequirementAttaqueAerienne.cpp" />
+    <ClCompile Include="RequirementAttaqueBaisser.cpp" />
+    <ClCompile Include="RequirementAttaquerDebout.cpp" />
+    <ClCompile Include="RequirementBaisser.cpp" />
+    <ClCompile Include="RequirementRedescendre.cpp" />
+    <ClCompile Include="RequirementRelever.cpp" />
+    <ClCompile Include="RequirementSauter.cpp" />
+    <ClCompile Include="Sauter.cpp" />
+    <ClCompile Include="Action.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Rules.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h" />
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="AttaqueAerienne.h" />
+    <ClInclude Include="AttaqueBaisser.h" />
+    <ClInclude Include="AttaquerDebout.h" />
+    <ClInclude Include="Baisser.h" />
+    <ClInclude Include="coupSpecial.h" />
+    <ClInclude Include="effet.h" />
+    <ClInclude Include="EffetAttaqueAerienne.h" />
+    <ClInclude Include="EffetAttaquebaisser.h" />
+    <ClInclude Include="EffetAttaqueDebout.h" />
+    <ClInclude Include="EffetBaisser.h" />
+    <ClInclude Include="EffetRedescendre.h" />
+    <ClInclude Include="EffetRemonter.h" />
+    <ClInclude Include="EffetSauter.h" />
+    <ClInclude Include="etat.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="prerequis.h" />
+    <ClInclude Include="redescendre.h" />
+    <ClInclude Include="relever.h" />
+    <ClInclude Include="RequirementAttaqueAerienne.h" />
+    <ClInclude Include="RequirementAttaqueBaisser.h" />
+    <ClInclude Include="RequirementAttaquerDebout.h" />
+    <ClInclude Include="RequirementBaisser.h" />
+    <ClInclude Include="RequirementRedescendre.h" />
+    <ClInclude Include="RequirementRelever.h" />
+    <ClInclude Include="RequirementSauter.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Sauter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LecomteIACpp.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

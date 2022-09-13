@@ -1,10 +1,13 @@
 // LecomteIACpp.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include "Header.h"
-
+#include <iostream>
+#include "GameManager.h"
 int main()
 {
-    std::cout << "YAmete kudasai!\n";
+    bool gamestate = true;
+    while (gamestate == true) {
+
+    }
     
 }

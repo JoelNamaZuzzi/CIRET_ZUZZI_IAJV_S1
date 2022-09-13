@@ -18,6 +18,90 @@
     <ClCompile Include="LecomteIACpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prerequis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="effet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="etat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Baisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Sauter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaquerDebout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaqueAerienne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AttaqueBaisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="redescendre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="relever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="coupSpecial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementBaisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementSauter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementAttaquerDebout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementAttaqueAerienne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementAttaqueBaisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementRedescendre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RequirementRelever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetBaisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetSauter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetAttaqueDebout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetAttaqueAerienne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetAttaquebaisser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetRedescendre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EffetRemonter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Rules.txt">
@@ -25,8 +109,97 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Header.h">
+    <ClInclude Include="Player.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="prerequis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="effet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="etat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Baisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Sauter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaquerDebout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaqueAerienne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AttaqueBaisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="redescendre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="relever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coupSpecial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementBaisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementSauter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementAttaquerDebout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementAttaqueAerienne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementAttaqueBaisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementRedescendre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RequirementRelever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetBaisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetSauter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetAttaqueDebout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetAttaqueAerienne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetAttaquebaisser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetRedescendre.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EffetRemonter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="LecomteIACpp.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
