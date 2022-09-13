@@ -1,5 +1,7 @@
 #pragma once
-class redescendre
+#include "Action.h"
+class redescendre : public Action
 {
+	virtual void Act() const;
 };
 

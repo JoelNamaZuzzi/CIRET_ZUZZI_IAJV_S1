@@ -1,5 +1,7 @@
 #pragma once
-class Sauter
+#include "Action.h"
+class Sauter : public Action
 {
+	virtual void Act() const;
 };
 

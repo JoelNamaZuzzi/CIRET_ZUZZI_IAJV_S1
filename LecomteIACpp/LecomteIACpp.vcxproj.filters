@@ -27,12 +27,6 @@
     <ClCompile Include="prerequis.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="effet.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="etat.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Baisser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -78,27 +72,6 @@
     <ClCompile Include="RequirementRelever.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="EffetBaisser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EffetSauter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EffetAttaqueDebout.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EffetAttaqueAerienne.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EffetAttaquebaisser.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EffetRedescendre.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="EffetRemonter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Action.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -122,9 +95,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="effet.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="etat.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Baisser.h">
@@ -172,28 +142,7 @@
     <ClInclude Include="RequirementRelever.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="EffetBaisser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffetSauter.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffetAttaqueDebout.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffetAttaqueAerienne.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffetAttaquebaisser.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffetRedescendre.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="EffetRemonter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

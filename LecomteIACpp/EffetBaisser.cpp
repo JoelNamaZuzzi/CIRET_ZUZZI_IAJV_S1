@@ -1,1 +1,0 @@
-#include "EffetBaisser.h"
