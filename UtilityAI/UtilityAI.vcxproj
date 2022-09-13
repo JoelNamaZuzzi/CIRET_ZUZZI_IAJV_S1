@@ -150,7 +150,9 @@
     <ClInclude Include="Attack.hpp" />
     <ClInclude Include="AttackEffect.hpp" />
     <ClInclude Include="AttackRequirement.hpp" />
+    <ClInclude Include="AttackSpe.hpp" />
     <ClInclude Include="Effect.hpp" />
+    <ClInclude Include="AttackSpeRequirement.hpp" />
     <ClInclude Include="Requirement.hpp" />
     <ClInclude Include="UtilityAI.h" />
   </ItemGroup>
