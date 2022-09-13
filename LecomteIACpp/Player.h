@@ -9,7 +9,7 @@
 #include "relever.h"
 
 #include <vector>
-#include "etat.h"
+
 #include "prerequis.h"
 
 class Player
@@ -20,7 +20,6 @@ private :
 public:
 	std::vector<Action> actions;
 	Action lastAction;
-	etat currentPosition;
 	Player();
 
 };

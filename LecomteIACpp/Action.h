@@ -1,8 +1,6 @@
 #pragma once
 #include <iostream>
 #include "prerequis.h"
-#include "effet.h"
-#include "etat.h"
 #include <vector>
 
 class Action
