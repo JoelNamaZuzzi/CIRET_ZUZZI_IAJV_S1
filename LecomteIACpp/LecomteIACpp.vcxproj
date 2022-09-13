@@ -156,6 +156,10 @@
     <ClCompile Include="relever.cpp" />
     <ClCompile Include="Sauter.cpp" />
     <ClCompile Include="Action.cpp" />
+    <ClCompile Include="VieDeLaTete.cpp" />
+    <ClCompile Include="VieDesJambes.cpp" />
+    <ClCompile Include="VieDuTorse.cpp" />
+    <ClCompile Include="VieManequin.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Rules.txt" />
@@ -178,6 +182,10 @@
     <ClInclude Include="relever.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Sauter.h" />
+    <ClInclude Include="VieDeLaTete.h" />
+    <ClInclude Include="VieDesJambes.h" />
+    <ClInclude Include="VieDuTorse.h" />
+    <ClInclude Include="VieManequin.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="LecomteIACpp.rc" />

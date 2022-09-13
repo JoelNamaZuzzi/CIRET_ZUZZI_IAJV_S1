@@ -1,6 +1,6 @@
 #pragma once
 #include "Action.h"
-class coupSpecial : public Action
+class CoupSpecial : public Action
 {
 	virtual void Act() const;
 };

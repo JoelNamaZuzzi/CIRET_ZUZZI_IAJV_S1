@@ -1,6 +1,6 @@
 #include "coupSpecial.h"
 using namespace std;
 
-void coupSpecial::Act() const {
-
+void CoupSpecial::Act() const {
+	cout << "COUP SPECIAL " << endl;
 }

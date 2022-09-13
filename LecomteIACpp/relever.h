@@ -1,6 +1,6 @@
 #pragma once
 #include "Action.h"
-class relever : public Action
+class Relever : public Action
 {
 	virtual void Act() const;
 };

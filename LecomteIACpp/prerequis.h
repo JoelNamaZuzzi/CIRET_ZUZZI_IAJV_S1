@@ -3,6 +3,6 @@ class prerequis
 {
 public :
 	
-	bool Require(){}
+	virtual bool Require();
 };
 

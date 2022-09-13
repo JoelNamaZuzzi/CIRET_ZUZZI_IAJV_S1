@@ -2,5 +2,5 @@
 using namespace std;
 
 void Baisser::Act() const {
-
+	cout << "BAISSER" << endl;
 }
