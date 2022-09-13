@@ -1,12 +1,19 @@
-#include <iostream>
-#include "AI.hpp"
-#include "Attack.hpp"
+#include "Header.h"
+
 int main()
 {
-    AI MyAI;
-    AttackRequirement Bite(5);
-    Attack Biffle(Bite, 1);
-    if (Biffle.checkPossibleAction(30)) { std::cout << "Biffle !"; }
+    cout << "Hello World!\n";
+    GameManager init;
+    init.Init();
+
+    if (init.start.WhoStartRandomiser() == 1) {
+        cout << "Youre 1st \n";
+        init.turn.PlayerTurn(1);
+    }
+    else {
+        cout << "Youre 2nd \n";
+        init.turn.PlayerTurn(0);
+    }
 
 }
 
