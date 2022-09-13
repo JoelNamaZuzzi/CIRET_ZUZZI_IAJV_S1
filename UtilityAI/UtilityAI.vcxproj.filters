@@ -22,4 +22,15 @@
   <ItemGroup>
     <Text Include="Rules.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AI.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Requirement.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
