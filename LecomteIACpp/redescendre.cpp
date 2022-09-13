@@ -1,6 +1,9 @@
 #include "redescendre.h"
 using namespace std;
 
-void redescendre::Act() const {
+void Redescendre::Act() const {
+	cout << "REDESCENDRE " << endl;
+}
+Redescendre::Redescendre() {
 
 }

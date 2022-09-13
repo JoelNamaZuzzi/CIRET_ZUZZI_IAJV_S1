@@ -3,5 +3,10 @@
 
 class AttaqueAerienne : public Action
 {
-	virtual void Act() const;
+private :
+	 void Act() const;
+
+public:
+	AttaqueAerienne();
+
 };

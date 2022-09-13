@@ -78,6 +78,18 @@
     <ClCompile Include="ATaper3Foix.cpp">
       <Filter>Source Files\Prerequi</Filter>
     </ClCompile>
+    <ClCompile Include="VieDeLaTete.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieDuTorse.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieDesJambes.cpp">
+      <Filter>Source Files\Prerequi</Filter>
+    </ClCompile>
+    <ClCompile Include="VieManequin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Rules.txt">
@@ -135,6 +147,18 @@
     </ClInclude>
     <ClInclude Include="ATaper3Foix.h">
       <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieDeLaTete.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieDuTorse.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieDesJambes.h">
+      <Filter>Header Files\Prerequi</Filter>
+    </ClInclude>
+    <ClInclude Include="VieManequin.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
