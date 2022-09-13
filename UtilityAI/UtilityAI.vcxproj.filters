@@ -22,6 +22,12 @@
     <Filter Include="Header Files\AttackSpe">
       <UniqueIdentifier>{30323d80-dd2b-4358-b116-c19ee58db57f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Buff">
+      <UniqueIdentifier>{0b92502f-e559-46d5-b68e-69f9ef44ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debuff">
+      <UniqueIdentifier>{e187f49b-361a-40ed-9222-c595c00a8314}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UtilityAI.cpp">
