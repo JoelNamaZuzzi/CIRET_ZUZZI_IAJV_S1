@@ -1,5 +1,5 @@
 #pragma once
-class RequirementAttaquerDebout
+class EtreAccroupi: public prerequis
 {
 };
 

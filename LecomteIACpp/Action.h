@@ -7,7 +7,7 @@ class Action
 {
 private :
 	int cost;
-	std::vector<prerequis> requirements;
+	std::vector<prerequis*> requirements;
 
 public:
 	virtual void Act();
@@ -16,7 +16,7 @@ public:
 	void SetCost(int c) { this->cost = c; };
 	int GetCost()const { return this->cost; };
 
-	void AddRequirements(prerequis r);
+	void AddRequirements(prerequis* r);
 
 	
 };
