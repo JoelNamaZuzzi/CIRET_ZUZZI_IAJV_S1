@@ -13,9 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Attack">
+      <UniqueIdentifier>{4870dc5b-f3f4-4555-bf6c-c6fafbf423d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Defense">
+      <UniqueIdentifier>{dbf2108b-2428-412b-8aa2-431cd4dae99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AttackSpe">
+      <UniqueIdentifier>{30323d80-dd2b-4358-b116-c19ee58db57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Buff">
+      <UniqueIdentifier>{0b92502f-e559-46d5-b68e-69f9ef44ff4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debuff">
+      <UniqueIdentifier>{e187f49b-361a-40ed-9222-c595c00a8314}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UtilityAI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Turn.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WhoStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -31,6 +58,27 @@
     </ClInclude>
     <ClInclude Include="Requirement.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityAI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack.hpp">
+      <Filter>Header Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackEffect.hpp">
+      <Filter>Header Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackRequirement.hpp">
+      <Filter>Header Files\Attack</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSpe.hpp">
+      <Filter>Header Files\AttackSpe</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackSpeRequirement.hpp">
+      <Filter>Header Files\AttackSpe</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
