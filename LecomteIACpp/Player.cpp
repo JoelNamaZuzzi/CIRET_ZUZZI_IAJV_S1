@@ -2,9 +2,13 @@
 
 Player::Player() {
 	this->score = 0;
-	this->actions.clear();
 }
 
 Action* Player::getAction(int index) {
-	return actions [index];
+	return actions[index];
+}
+
+int Player::NbAction() {
+	int ret = 0;
+	return ret = actions.size();
 }

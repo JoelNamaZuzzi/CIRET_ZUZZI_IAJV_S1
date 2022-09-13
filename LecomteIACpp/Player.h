@@ -18,12 +18,11 @@ private :
 	int score = 0;
 	std::vector<Action*> actions;
 	
-
 public:
 	Action* currentAction;
 	Action* lastAction;
 	Player();
-	int NbAction() {  int ret; return ret = actions.size(); };
+	int NbAction();
 	void AddAction(Action* act) { actions.push_back(act); };
 	Action* getAction(int index);
 

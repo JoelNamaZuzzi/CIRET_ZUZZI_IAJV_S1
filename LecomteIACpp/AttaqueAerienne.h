@@ -4,7 +4,7 @@
 class AttaqueAerienne : public Action
 {
 private :
-	 void Act() const;
+	 void Act() override ;
 
 public:
 	AttaqueAerienne();
