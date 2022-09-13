@@ -1,4 +1,9 @@
-#include "Header.h"
+#include <iostream>
+using namespace std;
+#include <random>
+#include <time.h>
+
+#include "WhoStart.h"
 
 int WhoStart::WhoStartRandomiser()
 {

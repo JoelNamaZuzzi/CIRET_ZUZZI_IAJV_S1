@@ -45,6 +45,9 @@
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Fight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="HeaderActions.hpp">
       <Filter>Header Files</Filter>
     </ClCompile>
@@ -123,6 +126,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WhoStart.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

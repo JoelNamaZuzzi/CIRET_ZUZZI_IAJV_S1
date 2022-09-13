@@ -1,16 +1,20 @@
-#include "Header.h"
+#include <iostream>
+using namespace std;
+#include "Turn.h"
+#include "GameManager.h"
 
 void Turn::PlayerTurn(int t) {
 	int wait;
 	GameManager gm;
-
+	
 	cout << gm.player.HP << "\n";
 	gm.player.HP -= 15;
 	cout << gm.player.HP << "\n";
 
-	cout << gm.playerAI.HP << "\n";
-	gm.playerAI.HP -= 15;
-	cout << gm.playerAI.HP << "\n";
+	cout << gm.AI.HP << "\n";
+	gm.AI = gm.fight.FightAgainst(gm.AI, gm.AI, 50);
+	gm.AI.HP -= 15;
+	cout << gm.AI.HP << "\n";
 
 	while (counterTurn != 10) {
 		if (t == 1) {
@@ -32,8 +36,7 @@ void Turn::PlayerTurn(int t) {
 				counterTurn++;
 			}
 			else {
-				cout << "Wait for your oppenent : " 
-<< "\n";
+				cout << "Wait for your oppenent : " << "\n";
 				cin >> wait;
 				counterTurn++;
 			}
