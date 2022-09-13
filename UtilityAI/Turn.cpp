@@ -11,10 +11,10 @@ void Turn::PlayerTurn(int t) {
 	gm.player.HP -= 15;
 	cout << gm.player.HP << "\n";
 
-	cout << gm.AI.HP << "\n";
-	gm.AI = gm.fight.FightAgainst(gm.AI, gm.AI, 50);
-	gm.AI.HP -= 15;
-	cout << gm.AI.HP << "\n";
+	cout << gm.playerAI.HP << "\n";
+	gm.playerAI = gm.fight.FightAgainst(gm.playerAI, gm.playerAI, 50);
+	gm.playerAI.HP -= 15;
+	cout << gm.playerAI.HP << "\n";
 
 	while (counterTurn != 10) {
 		if (t == 1) {
