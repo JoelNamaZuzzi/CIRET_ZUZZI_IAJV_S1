@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Fight.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Turn.cpp" />
@@ -163,6 +164,7 @@
     <ClInclude Include="DefenseRequirement.hpp" />
     <ClInclude Include="Effect.hpp" />
     <ClInclude Include="AttackSpeRequirement.hpp" />
+    <ClInclude Include="Fight.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Header.h" />
     <ClInclude Include="Player.h" />
