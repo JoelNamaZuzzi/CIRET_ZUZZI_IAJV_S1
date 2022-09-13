@@ -15,10 +15,13 @@ class Player
 {
 private :
 	int score = 0;
+	std::vector<Action*> actions;
 
 public:
-	std::vector<Action> actions;
-	Action lastAction;
+	
+	Action* lastAction;
 	Player();
+
+	void AddAction(Action* act) { actions.push_back(act); };
 
 };

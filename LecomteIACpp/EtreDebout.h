@@ -1,5 +1,5 @@
 #pragma once
-class RequirementAttaqueAerienne
+class EtreDebout : public prerequis
 {
 };
 
