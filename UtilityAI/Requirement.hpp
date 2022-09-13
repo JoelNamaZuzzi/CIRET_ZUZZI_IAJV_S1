@@ -3,5 +3,6 @@
 
 class Requirement {
 public:
-
+	int MPneeded=0;
+	Requirement(int MP) : MPneeded(MP) {};
 };

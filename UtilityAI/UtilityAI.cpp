@@ -1,7 +1,12 @@
 #include <iostream>
-
+#include "AI.hpp"
+#include "Attack.hpp"
 int main()
 {
-    std::cout << "Hello World!\n";
+    AI MyAI;
+    AttackRequirement Bite(5);
+    Attack Biffle(Bite, 1);
+    if (Biffle.checkPossibleAction(30)) { std::cout << "Biffle !"; }
+
 }
 
