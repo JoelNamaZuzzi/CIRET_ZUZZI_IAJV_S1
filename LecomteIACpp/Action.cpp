@@ -7,3 +7,7 @@ bool Action::Can() {
 	}
 	return state;
 }
+
+void Action::AddRequirements(prerequis r) {
+	this->requirements.push_back(r);
+}
