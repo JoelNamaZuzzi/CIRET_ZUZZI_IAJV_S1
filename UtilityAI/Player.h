@@ -4,11 +4,10 @@
 class Player
 {
 public:
+	Player();
 	int HP;
 	int MP;
+	int str;
 	
-	Player();
-
-private:
 
 };

@@ -1,17 +1,12 @@
-#include "Header.h"
-
+#include "GameManager.h"
 void GameManager::Init() {
-	WhoStart start;
-	Turn turn;
-	Player player;
-	Player AI;
 
 	GameState();
 }
 
 void GameManager::GameState() {
 	bool gamestate = true;
-	while (gamestate)
+	while (gamestate==true)
 	{
 		if (start.WhoStartRandomiser() == 1) {
 			cout << "Youre 1st \n";

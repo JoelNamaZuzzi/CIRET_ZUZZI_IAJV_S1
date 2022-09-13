@@ -8,9 +8,9 @@ void Turn::PlayerTurn(int t) {
 	gm.player.HP -= 15;
 	cout << gm.player.HP << "\n";
 
-	cout << gm.AI.HP << "\n";
-	gm.AI.HP -= 15;
-	cout << gm.AI.HP << "\n";
+	cout << gm.playerAI.HP << "\n";
+	gm.playerAI.HP -= 15;
+	cout << gm.playerAI.HP << "\n";
 
 	while (counterTurn != 10) {
 		if (t == 1) {

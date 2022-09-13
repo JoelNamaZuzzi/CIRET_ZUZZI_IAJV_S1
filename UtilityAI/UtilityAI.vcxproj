@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Attack.cpp" />
+    <ClCompile Include="AttackSpe.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="HeaderActions.hpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Turn.cpp" />
     <ClCompile Include="UtilityAI.cpp" />

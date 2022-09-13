@@ -1,16 +1,19 @@
 #pragma once
-#include"Action.hpp"
+#include "Player.h"
 
-class AI {
+#ifndef AI_H_
+#define AI_H_
+
+
+class AI: public Player {
 private:
-	int HP = 100;
-	int MP = 100;
-	std::string name = "AI";
-	int basestr = 10;
-	int str = 10;
+	std::string name;
 public:
-	int getHP() const { return HP; };
-	int getMP() const { return MP; };
+	AI(): Player(), name("AI") {};
+	int getHP() const { return this->HP; };
+	int getMP() const { return this->MP; };
 	void setHP(const int newHP) { HP = newHP; };
 	void setMP(const int newMP) { MP = newMP; };
+	std::vector<Action<Requirement>> TestActions(const std::vector<Action<Requirement>>) const;
 };
+#endif /* !AI_H_ */

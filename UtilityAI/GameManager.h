@@ -1,4 +1,5 @@
 #pragma once
+#include "Header.h"
 
 class GameManager
 {
@@ -6,7 +7,7 @@ public:
 	void Init();
 	WhoStart start;
 	Player player;
-	Player AI;
+	Player playerAI;
 	Turn turn;
 
 	void GameState();
