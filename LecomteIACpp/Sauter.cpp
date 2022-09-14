@@ -1,7 +1,7 @@
 #include "Sauter.h"
 using namespace std;
 
- void Sauter::Act() const {
+ void Sauter::Act() {
 	 cout << "SAUTE " << endl;
 }
  Sauter::Sauter() {

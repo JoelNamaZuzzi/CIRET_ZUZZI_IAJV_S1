@@ -3,7 +3,7 @@
 class Relever : public Action
 {
 public :
-	virtual void Act() const;
+	void Act() override;
 	Relever();
 };
 

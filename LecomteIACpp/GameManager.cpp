@@ -30,7 +30,7 @@ void GameManager::initAction() {
 	sauter->AddRequirements(new EtreDebout());
 	this->IaGoat.AddAction(sauter);
 
-	Relever* seRelever = nullptr;
+	Relever* seRelever = new Relever();
 	seRelever->AddRequirements(new EtreAccroupi());
 	this->IaGoat.AddAction(seRelever);
 
@@ -42,7 +42,7 @@ void GameManager::initAction() {
 	coupSpecial->AddRequirements(new EtreDebout());
 	coupSpecial->AddRequirements(new ATaper3Foix());
 	coupSpecial->AddRequirements(new VieDuTorse());
-
+	this->IaGoat.AddAction(coupSpecial);
 }
 
 Player GameManager::GetPlayer() const{

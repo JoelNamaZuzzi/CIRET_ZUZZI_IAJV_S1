@@ -1,7 +1,9 @@
 #pragma once
 #include <iostream>
-#include "prerequis.h"
+
 #include <vector>
+
+class prerequis;
 
 class Action
 {

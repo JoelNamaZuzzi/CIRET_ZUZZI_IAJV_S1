@@ -3,7 +3,7 @@
 class AttaquerDebout : public Action
 {
 public :
-	virtual void Act() const;
+	void Act() override;
 	AttaquerDebout();
 };
 

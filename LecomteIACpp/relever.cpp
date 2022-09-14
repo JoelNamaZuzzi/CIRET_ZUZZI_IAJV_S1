@@ -1,7 +1,7 @@
 #include "relever.h"
 using namespace std;
 
-void Relever::Act() const {
+void Relever::Act() {
 	cout << "SE RELEVE " << endl;
 }
 

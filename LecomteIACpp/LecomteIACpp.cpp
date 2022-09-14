@@ -2,19 +2,26 @@
 //
 
 #include <iostream>
+#include <time.h>
+#include <random>
+using namespace std;
 #include "GameManager.h"
 int main()
 {
     int CounterTurn = 0;
     GameManager gm;
     Player player = gm.GetPlayer();
-    gm.initAction();
+    int nbAction = player.NbAction();
+
     while (CounterTurn <10) {
-        srand(time(NULL));
-        int randomAttaque = rand() % player.NbAction() + 1;
+        
+        int randomAttaque = rand() % 7;
+        
         player.currentAction = player.getAction(randomAttaque);
 
         player.currentAction->Act();
+        
+        
         CounterTurn++;
     }
     
