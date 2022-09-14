@@ -1,5 +1,8 @@
 #pragma once
 #include "Player.h"
+#include <iostream>
+#include "Action.hpp"
+#include <vector>
 
 #ifndef AI_H_
 #define AI_H_
