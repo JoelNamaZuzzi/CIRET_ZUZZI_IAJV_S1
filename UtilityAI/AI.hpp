@@ -1,5 +1,9 @@
 #pragma once
 #include "Player.h"
+#include <iostream>
+#include "Action.hpp"
+#include <vector>
+#include "HeaderActions.hpp"
 
 #ifndef AI_H_
 #define AI_H_
@@ -14,6 +18,6 @@ public:
 	int getMP() const { return this->MP; };
 	void setHP(const int newHP) { HP = newHP; };
 	void setMP(const int newMP) { MP = newMP; };
-	std::vector<Action<Requirement>> TestActions(const std::vector<Action<Requirement>>) const;
+	std::vector<Action*> TestActions(const std::vector<Action*>) const;
 };
 #endif /* !AI_H_ */

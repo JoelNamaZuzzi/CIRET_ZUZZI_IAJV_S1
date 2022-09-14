@@ -3,7 +3,7 @@
 #include "Player.h"
 #include "Turn.h"
 #include "Fight.h"
-
+#include "AI.hpp"
 class GameManager
 {
 public:

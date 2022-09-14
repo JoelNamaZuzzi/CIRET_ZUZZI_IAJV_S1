@@ -1,7 +1,7 @@
 #pragma once
 #include "Action.hpp"
 #include "DefenseRequirement.hpp"
-class Defense : protected Action <DefenseRequirement> {
+class Defense : protected Action{
 private:
 	std::string name = "Defense";
 public:

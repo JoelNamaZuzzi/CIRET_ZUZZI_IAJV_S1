@@ -1,7 +1,7 @@
 #pragma once
 #include "Action.hpp"
 #include "AttackSpeRequirement.hpp"
-class AttackSpe : protected Action <AttackSpeRequirement> {
+class AttackSpe : protected Action {
 private:
 	std::string name = "AttackSpe";
 public:
