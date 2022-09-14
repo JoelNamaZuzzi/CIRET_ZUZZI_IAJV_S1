@@ -139,6 +139,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AI.cpp" />
+    <ClCompile Include="Attack.cpp" />
     <ClCompile Include="Fight.cpp" />
     <ClCompile Include="GameManager.cpp" />
     <ClCompile Include="HeaderActions.hpp" />
