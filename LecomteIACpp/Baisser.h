@@ -3,7 +3,7 @@
 class Baisser : public Action
 {
 public:
-	void Act() override;
+	void Act(VieManequin*) override;
 	Baisser();
 };
 

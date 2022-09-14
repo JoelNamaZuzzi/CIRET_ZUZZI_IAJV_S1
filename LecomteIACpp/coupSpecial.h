@@ -3,7 +3,7 @@
 class CoupSpecial : public Action
 {
 public :
-	void Act() override;
+	void Act(VieManequin*) override;
 	CoupSpecial();
 };
 

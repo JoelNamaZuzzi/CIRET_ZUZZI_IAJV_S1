@@ -2,7 +2,7 @@
 #include <iostream>
 
 #include <vector>
-
+#include "VieManequin.h"
 class prerequis;
 
 class Action
@@ -12,7 +12,7 @@ private :
 	std::vector<prerequis*> requirements;
 
 public:
-	virtual void Act();
+	virtual void Act(VieManequin*);
 	bool Can();
 
 	void SetCost(int c) { this->cost = c; };
