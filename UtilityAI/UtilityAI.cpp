@@ -9,8 +9,8 @@ int main()
     AI Robotchiotte;
     AttackRequirement bifleres(5);
     Attack biffle(bifleres, 1);
-    std::vector<Action<Requirement>> tested;
-    /*tested.push_back(biffle);
-    Robotchiotte.TestActions()*/
+    std::vector<Action> tested;
+    std::cout << biffle.getWeigth() << std::endl;
+    //tested.push_back(biffle);
 }
 

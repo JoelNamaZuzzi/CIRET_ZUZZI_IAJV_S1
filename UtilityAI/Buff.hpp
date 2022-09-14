@@ -1,7 +1,7 @@
 #pragma once
 #include "Action.hpp"
 #include "BuffRequirement.hpp"
-class Buff : protected Action <BuffRequirement> {
+class Buff : protected Action {
 private:
 	std::string name = "Buff";
 public:

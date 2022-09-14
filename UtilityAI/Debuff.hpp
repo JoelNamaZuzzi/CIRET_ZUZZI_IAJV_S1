@@ -1,7 +1,7 @@
 #pragma once
 #include "Action.hpp"
 #include "DeBuffRequirement.hpp"
-class Debuff : protected Action <DeBuffRequirement> {
+class Debuff : protected Action{
 private:
 	std::string name = "Debuff";
 public:
