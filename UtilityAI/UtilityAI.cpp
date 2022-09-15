@@ -30,5 +30,6 @@ int main()
         std::cout << typeid(*tested[x]).name()<<std::endl;
         utilities.push_back(tested[x]->getUtility(Robotchiotte, Robotchiotte));
     }
+    std::cout << utilities[0] << std::endl;
 }
 

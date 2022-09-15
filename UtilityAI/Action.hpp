@@ -2,6 +2,7 @@
 #include "Requirement.hpp"
 #include "AttackRequirement.hpp"
 #include "Player.h"
+#include <algorithm>
 
 class Action {
 protected:
