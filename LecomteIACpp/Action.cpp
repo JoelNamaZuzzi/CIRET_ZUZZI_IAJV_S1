@@ -12,6 +12,6 @@ void Action::AddRequirements(prerequis* r) {
 	this->requirements.push_back(r);
 }
 
-void Action::Act() {
+void Action::Act(VieManequin* manequin) {
 	std::cout << "git gud" << std::endl;
 }

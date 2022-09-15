@@ -4,25 +4,28 @@
 #include <iostream>
 #include <time.h>
 #include <random>
-using namespace std;
 #include "GameManager.h"
+#include "VieManequin.h"
+
+using namespace std;
+
 int main()
 {
     int CounterTurn = 0;
     GameManager gm;
+    VieManequin manequin;
     Player player = gm.GetPlayer();
     int nbAction = player.NbAction();
 
     while (CounterTurn <10) {
         
-        int randomAttaque = rand() % 7;
+        int randomAttaque = rand() % 7; 
         
         player.currentAction = player.getAction(randomAttaque);
 
-        player.currentAction->Act();
+        player.currentAction->Act(&manequin);
         
         
         CounterTurn++;
     }
-    
 }
