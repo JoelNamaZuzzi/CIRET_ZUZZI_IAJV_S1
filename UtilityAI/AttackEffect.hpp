@@ -2,7 +2,9 @@
 #include "Effect.hpp"
 class AttackEffect : public Effect {
 public:
-	void Execute(Player* me, Player* enemy) { 
+	AttackEffect() {};
+	virtual void Execute(Player* me, Player* enemy) { 
+		std::cout << "ma bite";
 		if (enemy->isDefending == true) {
 			enemy->HP -= me->str - 2;
 		}

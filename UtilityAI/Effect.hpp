@@ -3,5 +3,6 @@
 
 class Effect {
 public:
+	Effect();
 	virtual void Execute() {};
 };
