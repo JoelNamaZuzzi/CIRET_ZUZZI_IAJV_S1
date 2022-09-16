@@ -1,4 +1,7 @@
 #pragma once
-class Effect {
+#include "Player.h"
 
+class Effect {
+public:
+	virtual void Execute() {};
 };
