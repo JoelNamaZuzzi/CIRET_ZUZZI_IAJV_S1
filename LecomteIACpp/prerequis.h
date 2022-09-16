@@ -1,4 +1,8 @@
 #pragma once
+#ifndef PREREQUIS_H
+
+#define PREREQUIS_H
+
 class prerequis
 {
 public :
@@ -6,3 +10,4 @@ public :
 	virtual bool Require();
 };
 
+#endif // !PREREQUIS_H

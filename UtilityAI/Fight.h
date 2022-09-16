@@ -5,7 +5,7 @@
 class Fight
 {
 public:
-	void FightAgainst(Player p1, Player p2, int damage);
+	void FightAgainst(Player* p1, Player* p2, int damage);
 
 private:
 
