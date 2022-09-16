@@ -10,5 +10,7 @@ public:
 	bool isBuffed;
 	bool isDeBuffed;
 	bool isDefending;
-
+	int turnLeftDeBuff;
+	int turnLeftBuff;
+	void CheckEndBuffNDebuff() {};
 };

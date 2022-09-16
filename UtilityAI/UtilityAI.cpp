@@ -2,13 +2,15 @@
 #include "HeaderActions.hpp"
 #include <vector>
 #include <typeinfo>
+#include "AttackEffect.hpp"
 
 int main()
 {
-    GameManager init;
-    init.Init();
+    //GameManager init;
+    //init.Init();
 
-    /*AI Robotchiotte;
+    AI Robotchiotte;
+    AttackEffect zboub;
     AttackRequirement bifleres(5);
     Attack* biffle= new Attack(bifleres, 1);
     std::vector<Action*> tested;
@@ -17,8 +19,6 @@ int main()
     temp.insert(temp.begin(), tested.begin(), tested.end());
     tested.clear();
     std::cout << Robotchiotte.TestActions(temp).size()<<std::endl;
-    //Robotchiotte.HP -= 1;
-    //std::cout << Robotchiotte.HP << std::endl;
     //tested.resize(Robotchiotte.TestActions(temp).size());
     //tested.push_back(Robotchiotte.TestActions(temp)[0]);
     //tested.insert(tested.begin(), Robotchiotte.TestActions(temp).begin(), Robotchiotte.TestActions(temp).end());
@@ -32,6 +32,6 @@ int main()
         std::cout << typeid(*tested[x]).name()<<std::endl;
         utilities.push_back(tested[x]->getUtility(Robotchiotte, Robotchiotte));
     }
-    std::cout << utilities[0] << std::endl;*/
+    std::cout << utilities[0] << std::endl;
 }
 

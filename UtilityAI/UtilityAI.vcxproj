@@ -143,7 +143,9 @@
     <ClCompile Include="AI.cpp" />
     <ClCompile Include="Attack.cpp" />
     <ClCompile Include="AttackSpe.cpp" />
+    <ClCompile Include="AttackSpeEffect.cpp" />
     <ClCompile Include="Buff.cpp" />
+    <ClCompile Include="BuffEffect.cpp" />
     <ClCompile Include="Debuff.cpp" />
     <ClCompile Include="Defense.cpp" />
     <ClCompile Include="Fight.cpp" />
