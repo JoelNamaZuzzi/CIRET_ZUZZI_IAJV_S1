@@ -18,11 +18,11 @@ void Turn::PlayerTurn(int t) {
 				cout << "3 -> Buff" << "\n";
 				cout << "4 -> Debuff" << "\n";
 				cout << "5 -> Defense" << "\n";
-				cin >> action;
-				gm.fight.FightAgainst(player, playerAI, action);
+				cin >> action;// récup linput de laction
+				gm.fight.FightAgainst(player, playerAI, action);//1er param :attaquant, 2eme : ennemi, 3rd action
 				cout << player->HP << "\n";
 				cout << playerAI->HP << "\n";
-				counterTurn++;
+				counterTurn++;//augmente le tour ce qui permet de switch entre player et ia en fonction de qui à commencer
 			}
 			else {
 				cout << "Wait for your oppenent : " << "\n";
