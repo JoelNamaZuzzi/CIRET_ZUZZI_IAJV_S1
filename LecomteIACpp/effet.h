@@ -7,6 +7,7 @@
 class effet
 {
 public :
+	effet();
 	std::string name;
 	effet(std::string);
 	virtual void activateEffect(VieManequin* mannequin);

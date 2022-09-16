@@ -42,7 +42,7 @@ void ReverseAstar::startSimu() {
 				SimuActions.push_back(coutleplusfaible);
 			//sinon on cherche les effet qui corresponde au precondition
 			else {
-				coutleplusfaible.
+				
 			}
 			
 	}

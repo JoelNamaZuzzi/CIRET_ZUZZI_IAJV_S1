@@ -4,3 +4,6 @@ void BaisserVieTorse::activateEffect(VieManequin* mannequin) {
 	mannequin->VieTorse -= 12;
 
 }
+BaisserVieTorse::BaisserVieTorse() {
+
+}

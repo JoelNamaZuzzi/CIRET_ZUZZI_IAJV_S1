@@ -4,3 +4,7 @@ void EffetMonter::activateEffect(VieManequin* mannequin) {
 	GameManager* gm = GameManager::getInstance();
 	gm->setState(state::Enlair);
 }
+
+EffetMonter::EffetMonter() {
+
+}
