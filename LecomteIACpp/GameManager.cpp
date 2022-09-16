@@ -1,7 +1,17 @@
 #include "GameManager.h"
 
+GameManager* GameManager::instance = 0;
+
 GameManager::GameManager() {
 	initAction();
+	gamestate = state::Debout;
+}
+
+GameManager* GameManager::getInstance() {
+	if (instance == nullptr) {
+		instance = new GameManager();
+	}
+	return instance;
 }
 
 void GameManager::initAction() {
@@ -10,6 +20,8 @@ void GameManager::initAction() {
 	
 	attaqueAerienne->AddRequirements(new EtreEnLair());
 	attaqueAerienne->AddRequirements(new VieDeLaTete());
+
+
 	this->IaGoat.AddAction(attaqueAerienne);
 
 	AttaqueBaisser* attaqueBaisser = new AttaqueBaisser();			
@@ -43,6 +55,12 @@ void GameManager::initAction() {
 	coupSpecial->AddRequirements(new ATaper3Foix());
 	coupSpecial->AddRequirements(new VieDuTorse());
 	this->IaGoat.AddAction(coupSpecial);
+
+	BaisserVieJambe* baisserviejambe = new BaisserVieJambe();
+
+
+
+
 }
 
 Player GameManager::GetPlayer() const{
@@ -52,3 +70,24 @@ Player GameManager::GetPlayer() const{
 void GameManager::SetPlayer(Player p) {
 	this->IaGoat = p;
 }
+
+state GameManager::getState() const{
+	return this->gamestate;
+}
+
+void GameManager::setState(state s) {
+	this->gamestate = s;
+}
+
+VieManequin* GameManager::getManequin() const {
+	return this->manequin;
+}
+
+int GameManager::GetnbCoup() const {
+	return nbCoup;
+}
+
+void GameManager::SetnbCoup(int p) {
+	this->nbCoup += p;
+}
+

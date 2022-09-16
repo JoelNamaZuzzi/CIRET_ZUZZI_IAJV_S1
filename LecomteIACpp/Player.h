@@ -1,6 +1,8 @@
 #pragma once
-#include "Action.h"
+#ifndef PLAYER_H
+#define PLAYER_H
 
+#include "Action.h"
 #include "AttaqueAerienne.h"
 #include "AttaqueBaisser.h"
 #include "AttaquerDebout.h"
@@ -25,5 +27,8 @@ public:
 	int NbAction();
 	void AddAction(Action* act) { actions.push_back(act); };
 	Action* getAction(int index);
+	std::vector<Action*> GetActionsCopy();
 
 };
+
+#endif // !PLAYER_H

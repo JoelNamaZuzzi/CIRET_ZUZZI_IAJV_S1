@@ -1,13 +1,9 @@
 #include "AttaqueAerienne.h"
 using namespace std;
 
-void AttaqueAerienne::Act (VieManequin* mannequin)
+void AttaqueAerienne::Act ()
 {
 	cout << "ATTAQUE AERIENNE" << endl;
-	mannequin->VieTete -= 10;
-	if (mannequin->VieTete <= 0)
-		mannequin->VieTete = 0;
-	mannequin->printVie();
 	
 }
 
