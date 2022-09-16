@@ -12,5 +12,5 @@ public:
 	bool isDefending;
 	int turnLeftDeBuff;
 	int turnLeftBuff;
-	void CheckEndBuffNDebuff() {};
+	void CheckEndBuffNDebuff();
 };

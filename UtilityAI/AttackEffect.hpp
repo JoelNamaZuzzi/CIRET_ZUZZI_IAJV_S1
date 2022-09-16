@@ -9,7 +9,5 @@ public:
 		else {
 			enemy->HP -= me->str;
 		}
-		me->CheckEndBuffNDebuff();
-		enemy->CheckEndBuffNDebuff();
 	}
 };

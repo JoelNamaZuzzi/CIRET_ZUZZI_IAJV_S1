@@ -69,10 +69,10 @@
     <ClCompile Include="Debuff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="AttackSpeEffect.cpp">
+    <ClCompile Include="AttackSpeEffect.hpp">
       <Filter>Header Files\AttackSpe</Filter>
     </ClCompile>
-    <ClCompile Include="BuffEffect.cpp">
+    <ClCompile Include="BuffEffect.hpp">
       <Filter>Header Files\Buff</Filter>
     </ClCompile>
   </ItemGroup>
@@ -144,6 +144,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Fight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebuffEffect.hpp">
+      <Filter>Header Files\Debuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DefenseEffect.hpp">
+      <Filter>Header Files\Defense</Filter>
+    </ClInclude>
+    <ClInclude Include="HeaderEffect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

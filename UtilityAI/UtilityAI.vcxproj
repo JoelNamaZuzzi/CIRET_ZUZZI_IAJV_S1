@@ -143,9 +143,9 @@
     <ClCompile Include="AI.cpp" />
     <ClCompile Include="Attack.cpp" />
     <ClCompile Include="AttackSpe.cpp" />
-    <ClCompile Include="AttackSpeEffect.cpp" />
+    <ClCompile Include="AttackSpeEffect.hpp" />
     <ClCompile Include="Buff.cpp" />
-    <ClCompile Include="BuffEffect.cpp" />
+    <ClCompile Include="BuffEffect.hpp" />
     <ClCompile Include="Debuff.cpp" />
     <ClCompile Include="Defense.cpp" />
     <ClCompile Include="Fight.cpp" />
@@ -169,7 +169,9 @@
     <ClInclude Include="Buff.hpp" />
     <ClInclude Include="BuffRequirement.hpp" />
     <ClInclude Include="Debuff.hpp" />
+    <ClInclude Include="DebuffEffect.hpp" />
     <ClInclude Include="DebuffRequirement.hpp" />
+    <ClInclude Include="DefenseEffect.hpp" />
     <ClInclude Include="Defense.hpp" />
     <ClInclude Include="DefenseRequirement.hpp" />
     <ClInclude Include="Effect.hpp" />
@@ -177,6 +179,7 @@
     <ClInclude Include="Fight.h" />
     <ClInclude Include="GameManager.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="HeaderEffect.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Requirement.hpp" />
     <ClInclude Include="Turn.h" />

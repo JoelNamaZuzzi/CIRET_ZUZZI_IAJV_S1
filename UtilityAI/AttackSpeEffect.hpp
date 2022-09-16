@@ -1,3 +1,4 @@
+#pragma once
 #include "Effect.hpp"
 class AttackSpeEffect : public Effect {
 	void Execute(Player* me, Player* enemy) {
@@ -7,8 +8,6 @@ class AttackSpeEffect : public Effect {
 		else {
 			enemy->HP -= me->str;
 		}
-		me->CheckEndBuffNDebuff();
-		enemy->CheckEndBuffNDebuff();
 	}
 	
 };
