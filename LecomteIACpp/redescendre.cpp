@@ -1,9 +1,9 @@
 #include "redescendre.h"
 using namespace std;
 
-void Redescendre::Act(VieManequin* mannequin) {
+void Redescendre::Act() {
 	cout << "REDESCENDRE " << endl;
-	mannequin->printVie();
+	
 }
 Redescendre::Redescendre() {
 
