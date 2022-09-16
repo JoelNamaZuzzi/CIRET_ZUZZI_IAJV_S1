@@ -1,7 +1,8 @@
 #pragma once
 #include "Effect.hpp"
 class AttackSpeEffect : public Effect {
-	void Execute(Player* me, Player* enemy) {
+public:
+	virtual void Execute(Player* me, Player* enemy) {
 		if (enemy->isDefending == true) {
 			enemy->HP -= me->str - 1;
 		}
