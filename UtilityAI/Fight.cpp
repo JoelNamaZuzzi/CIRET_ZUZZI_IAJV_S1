@@ -1,7 +1,6 @@
 #include "Fight.h"
+#include "GameManager.h"
 
-Player Fight::FightAgainst(Player p1, Player p2, int damage) {
-	p2.HP -= damage;
-
-	return p2;
+void Fight::FightAgainst(Player p1, Player p2, int damage) {
+	p2.HP = 42;
 }

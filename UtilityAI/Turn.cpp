@@ -6,26 +6,25 @@ using namespace std;
 void Turn::PlayerTurn(int t) {
 	int wait;
 	GameManager gm;
-	
-	cout << gm.player.HP << "\n";
-	gm.player.HP -= 15;
-	cout << gm.player.HP << "\n";
+	Player player;
+	AI playerAI;
 
-	cout << gm.playerAI.HP << "\n";
-	gm.playerAI = gm.fight.FightAgainst(gm.playerAI, gm.playerAI, 50);
-	gm.playerAI.HP -= 15;
-	cout << gm.playerAI.HP << "\n";
-
-	while (counterTurn != 10) {
+	while (player.HP > 0 && playerAI.HP) {
 		if (t == 1) {
 			if (counterTurn % 2 == 1) {
 				cout << "Your turn : " << "\n";
 				cin >> wait;
+				gm.fight.FightAgainst(player, playerAI, wait);
+				cout << player.HP << "\n";
+				cout << playerAI.HP << "\n";
 				counterTurn++;
 			}
 			else {
 				cout << "Wait for your oppenent : " << "\n";
 				cin >> wait;
+				gm.fight.FightAgainst(playerAI, player, wait);
+				cout << player.HP << "\n";
+				cout << playerAI.HP << "\n";
 				counterTurn++;
 			}
 		}
@@ -33,11 +32,17 @@ void Turn::PlayerTurn(int t) {
 			if (counterTurn % 2 == 0) {
 				cout << "Your turn : " << "\n";
 				cin >> wait;
+				gm.fight.FightAgainst(player, playerAI, wait);
+				cout << player.HP << "\n";
+				cout << playerAI.HP << "\n";
 				counterTurn++;
 			}
 			else {
 				cout << "Wait for your oppenent : " << "\n";
 				cin >> wait;
+				gm.fight.FightAgainst(playerAI, player, wait);
+				cout << player.HP << "\n";
+				cout << playerAI.HP << "\n";
 				counterTurn++;
 			}
 		}

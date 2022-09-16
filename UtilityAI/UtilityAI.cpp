@@ -5,10 +5,10 @@
 
 int main()
 {
-    //GameManager init;
-    //init.Init();
+    GameManager init;
+    init.Init();
 
-    AI Robotchiotte;
+    /*AI Robotchiotte;
     AttackRequirement bifleres(5);
     Attack* biffle= new Attack(bifleres, 1);
     std::vector<Action*> tested;
@@ -30,6 +30,6 @@ int main()
         std::cout << typeid(*tested[x]).name()<<std::endl;
         utilities.push_back(tested[x]->getUtility(Robotchiotte, Robotchiotte));
     }
-    std::cout << utilities[0] << std::endl;
+    std::cout << utilities[0] << std::endl;*/
 }
 
