@@ -3,10 +3,12 @@
 #define ETREDEBOUT_H
 
 #include "prerequis.h"
-#include "GameManager.h"
+class GameManager;
 
 class EtreDebout : public prerequis
 {
+public :
+	int id = 2;
 	bool Require() override;
 };
 

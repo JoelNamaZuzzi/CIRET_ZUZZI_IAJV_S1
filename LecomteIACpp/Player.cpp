@@ -1,4 +1,5 @@
 #include "Player.h"
+#include "Action.h"
 
 Player::Player() {
 	this->score = 0;

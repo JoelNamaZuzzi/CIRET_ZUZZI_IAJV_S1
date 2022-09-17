@@ -2,11 +2,13 @@
 #ifndef VIEDELATETE_H
 #define VIEDELATETE_H
 
-#include "GameManager.h"
-#include "prerequis.h"
 
+#include "prerequis.h"
+class GameManager;
 class VieDeLaTete : public prerequis
 {
+public:
+	int id = 4;
 	bool Require() override;
 };
 

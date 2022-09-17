@@ -1,5 +1,5 @@
 #include "EffetSaccroupir.h"
-#include "GameManager.h"
+
 
 void EffetSaccroupir::activateEffect(VieManequin* mannequin) {
 	GameManager* gm = GameManager::getInstance();
@@ -9,4 +9,14 @@ void EffetSaccroupir::activateEffect(VieManequin* mannequin) {
 
 EffetSaccroupir::EffetSaccroupir() {
 
+}
+
+bool EffetSaccroupir::ValidateEffect(VieManequin* mannequin) {
+	GameManager* gm = GameManager::getInstance();
+	if (gm->getState() == state::Accroupi) {
+		return true;
+	}
+	else {
+		return false;
+	}
 }

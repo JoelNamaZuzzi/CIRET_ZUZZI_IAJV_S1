@@ -1,9 +1,9 @@
 #pragma once
 #ifndef ATTAQUEBAISSER_H
 #define ATTAQUEBAISSER_H
-
-
 #include "Action.h"
+
+
 class AttaqueBaisser : public Action
 {
 public :

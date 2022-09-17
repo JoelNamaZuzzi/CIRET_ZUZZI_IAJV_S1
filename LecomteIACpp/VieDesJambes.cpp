@@ -1,5 +1,6 @@
 #include "VieDesJambes.h"
 #include "GameManager.h"
+
 bool VieDesJambes::Require() {
 	GameManager* gm;
 	VieManequin* tmp = gm->getInstance()->getManequin();

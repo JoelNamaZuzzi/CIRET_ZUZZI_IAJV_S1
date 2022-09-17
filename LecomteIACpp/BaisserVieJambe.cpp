@@ -7,3 +7,11 @@ void BaisserVieJambe::activateEffect(VieManequin* mannequin) {
 BaisserVieJambe::BaisserVieJambe() {
 
 }
+bool BaisserVieJambe::ValidateEffect(VieManequin* mannequin)  {
+	if (mannequin->VieJambes > 0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}

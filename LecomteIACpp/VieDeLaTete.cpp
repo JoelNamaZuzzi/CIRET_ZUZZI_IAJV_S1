@@ -1,4 +1,5 @@
 #include "VieDeLaTete.h"
+#include "GameManager.h"
 
 bool VieDeLaTete::Require() {
 	GameManager* gm = GameManager::getInstance();

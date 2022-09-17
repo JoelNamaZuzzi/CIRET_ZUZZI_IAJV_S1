@@ -4,11 +4,12 @@
 
 
 #include "prerequis.h"
-#include "GameManager.h"
+class GameManager;
 class EtreAccroupi: public prerequis
 {
 public:
 	EtreAccroupi();
+	int id = 1;
 	bool Require() override;
 };
 

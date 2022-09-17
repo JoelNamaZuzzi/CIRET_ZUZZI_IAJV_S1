@@ -35,7 +35,6 @@ private :
 	VieManequin* manequin;
 	GameManager() ;
 	int nbCoup = 0;
-	
 	state gamestate;
 
 public :
@@ -48,7 +47,6 @@ public :
 	state getState()const;
 	void setState(state);
 	VieManequin* getManequin() const;
-	
 	
 	void initAction();
 

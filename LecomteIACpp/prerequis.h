@@ -8,6 +8,7 @@ class prerequis
 public :
 	
 	virtual bool Require();
+	 int id;
 };
 
 #endif // !PREREQUIS_H

@@ -2,7 +2,7 @@
 #ifndef REVERSEASTAR_H
 #define REVERSEASTAR_H
 #include <vector>
-#include "Player.h"
+class Player;
 
 class ReverseAstar
 {	
@@ -13,6 +13,8 @@ public :
 	void startSimu();
 	std::vector<Action*> SimuActions;
 	std::vector<effet*> SimuEffects;
+
+	effet* checkPrecondition(prerequis* p);
 };
 
 #endif // !REVERSEASTAR_H

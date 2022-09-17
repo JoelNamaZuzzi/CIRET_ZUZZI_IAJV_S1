@@ -3,10 +3,12 @@
 #define ETREENLAIR_H
 
 #include "prerequis.h"
-#include "GameManager.h"
+class GameManager;
 
 class EtreEnLair : public prerequis
 {
+public :
+	int id = 3;
 	bool Require() override;
 };
 

@@ -14,7 +14,7 @@ int main()
     GameManager* gm = GameManager::getInstance();
     Player player = gm->GetPlayer();
     int nbAction = player.NbAction();
-    ReverseAstar goap;
+    ReverseAstar goap = ReverseAstar();
     
     
 

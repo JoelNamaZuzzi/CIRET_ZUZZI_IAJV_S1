@@ -2,15 +2,17 @@
 
 #ifndef EFFET_H
 #define EFFET_H
-#include <string>
-#include "VieManequin.h"
+
+#include "GameManager.h"
+#include"VieManequin.h"
 class effet
 {
 public :
 	effet();
-	std::string name;
+	int id;
 	effet(std::string);
 	virtual void activateEffect(VieManequin* mannequin);
+	virtual bool ValidateEffect(VieManequin* mannequin) ;
 };
 
 

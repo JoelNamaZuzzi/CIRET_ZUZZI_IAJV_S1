@@ -1,4 +1,6 @@
 #include "EtreEnLair.h"
+#include "GameManager.h"
+
 bool EtreEnLair::Require() {
 	GameManager* gm;
 	state tmp = gm->getInstance()->getState();

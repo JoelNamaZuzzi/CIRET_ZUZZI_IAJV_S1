@@ -3,11 +3,12 @@
 #define VIEDUTORSE_H
 
 #include "prerequis.h"
-#include "GameManager.h"
+class GameManager;
 
 class VieDuTorse : public prerequis
 {
-	
+public :
+	int id = 6;
 	bool Require() override;
 };
 

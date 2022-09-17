@@ -7,3 +7,13 @@ void BaisserVieTorse::activateEffect(VieManequin* mannequin) {
 BaisserVieTorse::BaisserVieTorse() {
 
 }
+
+bool BaisserVieTorse::ValidateEffect(VieManequin* mannequin) {
+	
+	if (mannequin->VieTorse >0) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}

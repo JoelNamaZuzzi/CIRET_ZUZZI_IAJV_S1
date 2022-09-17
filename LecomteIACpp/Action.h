@@ -1,16 +1,13 @@
 #pragma once
 
 #ifndef ACTION_H
-
 #define ACTION_H
 
-
-
 #include <iostream>
-
+#include "GameManager.h"
 #include <vector>
-#include "VieManequin.h"
-#include "effet.h"
+
+class effet;
 class prerequis;
 
 class Action
@@ -29,7 +26,8 @@ public:
 
 	void AddRequirements(prerequis* r);
 	void AddEffect(effet* e);
-
+	effet* getEffect();
+	std::vector<prerequis*> GetRequirement();
 	
 };
 

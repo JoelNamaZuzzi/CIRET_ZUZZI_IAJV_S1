@@ -1,5 +1,5 @@
 #include "ATaper3Foix.h"
-
+#include "GameManager.h"
 
 bool ATaper3Foix::Require()  {
 	GameManager* gm = GameManager::getInstance();
